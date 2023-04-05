@@ -28,7 +28,7 @@ Tired of checking your service statuses every day? Use the Windows event logs to
     ```
     resource.type="gce_instance"
 
-    -- Only "Task completed logs"
+    -- Only "Action completed logs"
     jsonPayload.Channel="Microsoft-Windows-TaskScheduler/Operational"
     jsonPayload.EventID="201"
 
